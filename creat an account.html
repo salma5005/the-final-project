@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create an Account - Skill Masters</title>
+  
+  <style>
+
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-image: url(background2483.jpg);
+      background-size: cover;
+    }
+
+    h1 {
+      color:black;
+      font-size: 24px;
+      margin-bottom: 24px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      position: absolute;top: 60px;left: 40%;
+      
+    }
+
+    .registration-form {
+      margin-top: 20px;
+      border: 1px solid white;
+      border-radius: 15px;
+      background-color: rgba(228, 236, 243, 0.5);
+      width: 400px;
+      height: 450px;
+      position: absolute;left:31%;top: 15%;
+    }
+
+    .registration-input {
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 200px;
+      position: relative;top: 70px;
+    }
+
+    .registration-submit {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color:rgb(206, 234, 235);
+      color: rgb(12, 12, 12);
+      border: 1px solid black;
+      cursor: pointer;
+      position: relative;top: 80px;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <img src="arrow2.png" style="width: 140px;position: absolute;left: 20%;top: 455px;">
+  
+  <a href="login page.html"style="text-decoration:none;color:#9e507f;
+  position: absolute;left:26%;top:510px;font-size:20px;"> back </a>
+  <h1 >Create an Account</h1>
+   
+  <form class="registration-form" action="register_action.php" method="POST">
+   
+    <input class="registration-input" type="text" name="firstName" placeholder="First Name" required><br>
+
+    <input class="registration-input" type="text" name="lastName" placeholder="Last Name" required><br>
+
+    <input class="registration-input" type="email" name="email" placeholder="Email" required><br>
+
+    <input class="registration-input" type="tel" name="phoneNumber" placeholder="Phone Number" required><br>
+
+    <input class="registration-input" type="password" name="password" placeholder="Password" required><br>
+
+    <input class="registration-input" type="password" name="confirmPassword" placeholder="Confirm Password" required><br>
+
+    <button class="registration-submit"type="submit"><a href="home (1).html"style="text-decoration:none;
+    color:black">Create Acount</a></button>
+    
+  </form>
+</body>
+</html>

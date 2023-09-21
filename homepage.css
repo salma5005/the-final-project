@@ -1,0 +1,132 @@
+ .header {
+   margin-bottom: 50px;
+  position: absolute;
+   left: 700px;
+  }
+h1{
+    position: absolute;top: 115px;left: 120px;
+    font-size: 58px;
+    font-family: "Azbuka W01 Heavy Condensed";
+}
+.intro{
+    position: absolute;top: 225px;left: 50px;
+    font-size: 19px;
+    font-family: 'Air Strip Arabic', sans-serif;
+}
+.courses{
+    margin-right: 30px;
+    position: absolute;left: -178px;top: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: initial;
+}
+.summer_programs{
+
+    margin-right: 40px;
+    font-size: 25px;
+    position: absolute;left: -60px;top: 9px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-style: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.activities{
+    font-size: 25px;
+    position: absolute;top: 9px;left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+}
+h2{
+    position: absolute;top: 364px;left:90px;
+    font-size: 20px;
+    color:#FF3E89 ;
+     font-family: 'Air Strip Arabic', sans-serif;
+}
+.v1{
+    border-left: 1px solid black;
+    height: 55px;
+    position: absolute;
+        left: 48%;
+        margin-left: -3px;
+        top: 0;
+        border-width: 2px;
+}
+.h1{
+    border:1px solid black;
+    width:488px;
+     position: absolute;
+     border-width: 1px;
+       top: 53px;
+       left: 47.8%;
+
+}
+.v2{
+border-left: 1px solid black;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+    margin-left: -3px;
+    top: 230px;
+    border-width: 2px;
+}
+.v3{
+    border-left: 1px solid black;
+        height: 40px;
+        position: absolute;
+        left: 40%;
+        margin-left: -3px;
+        top: 400px;
+        border-width: 2px;
+}
+.v4{
+    border-left: 1px solid black;
+        height: 40px;
+        position: absolute;
+        left: 3%;
+        margin-left: -3px;
+        top: 230px;
+        border-width: 2px;
+}
+.v5{
+    border-left: 1px solid black;
+        height: 40px;
+        position: absolute;
+        left: 3%;
+        margin-left: -3px;
+        top: 400px;
+        border-width: 2px;
+}
+.h2{
+    border: 1px solid black;
+        width: 40px;
+        position: absolute;
+        border-width: 1px;
+        top: 438px;
+        left: 2.8%;
+}
+.h3{
+    border: 1px solid black;
+        width: 40px;
+        position: absolute;
+        border-width: 1px;
+        top: 230px;
+        left: 2.8%;
+    }
+.h4{
+    border: 1px solid black;
+     width: 40px;
+     position: absolute;
+     border-width: 1px;
+     top: 230px;
+     left: 35.8%;
+    }
+.h5{
+    border: 1px solid black;
+     width: 40px;
+     position: absolute;
+     border-width: 1px;
+     top: 438px;
+     left: 35.8%;
+}        
+    

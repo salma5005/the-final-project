@@ -1,0 +1,38 @@
+body{
+    width: auto;
+    height: auto;
+}
+h1{
+    margin-bottom: 500px;
+    position: absolute;top: 270px;left: 240px;
+    font-family: sans-serif;
+    font-size: 40px;
+     color:rgb(102, 60, 67) ;
+}
+h2{
+position: absolute;top: 320px;left: 240px;
+font-family: sans-serif;
+font-size: 40px;
+color: rgb(102, 60, 67);
+
+
+
+}
+p{
+    margin-bottom: 500px;
+    position: absolute;top:390px;left: 50px;
+    font-family: cursive;
+    font-size: 18px
+}
+h3{
+    position: absolute;  top: 520px;left: 330px;
+    font-family:monospace;
+
+}
+a{
+    position: absolute; top: 510px; left: 250px;
+    text-decoration: none;
+    color: rgb(168, 134, 88);
+    font-size: 30px;
+    font-family: cursive;
+}

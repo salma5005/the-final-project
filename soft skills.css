@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.p2{
+    margin-top: 65px;
+    margin-left: -10px;
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(77, 27, 72);
+
+}
+ h3 {
+     position: absolute;
+     top: 650px;
+     left: 40%;
+     font-family: "Azbuka W01 Heavy Condensed";
+     font-size: 25px;
+ }
+
+h4{
+    position: absolute;top: 645px;left: 37%;
+    text-align: center;
+    font-family:"Azbuka W01 Heavy Condensed" ;
+    font-size: 25px;
+}
+.p4 {
+    position: absolute;
+    top: 690px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+
+.p5{
+    position: absolute;top: 755px;left: 14px;
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: rgba(255, 228, 196, 0.719);
+    font-family:cursive;
+}
+h5{
+    position: absolute;top: 695px;left: 400px;
+    font-family:"Azbuka W01 Heavy Condensed" ;
+    font-size: 25px;
+}
+h6{
+position:absolute;top: 832px;left: 400px;
+font-family:"Azbuka W01 Heavy Condensed" ;
+font-size: 25px;
+
+}
+.p6{
+    position: absolute;top:905px ;left: 14px;
+   font-family: cursive;
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.719);
+
+}
+.h7{
+    position: absolute;top: 985px;left: 390px;
+    font-family:"Azbuka W01 Heavy Condensed" ;
+    font-size: 25px;
+}
+.p7{
+    position: absolute;
+        top: 1059px;
+        left: 14px;
+        font-family: cursive;
+        border: 1px solid black;
+        border-color: black;
+        border-radius: 10px;
+        background-color:rgba(255, 228, 196, 0.719);
+}
+ .h8{
+    position: absolute;
+        top: 1135px;
+        left: 380px;
+        font-family: "Azbuka W01 Heavy Condensed";
+        font-size: 25px;
+ }
+.p8{
+    position: absolute;
+        top: 1209px;
+        left: 14px;
+        font-family: cursive;
+        border: 1px solid black;
+        border-color:black;
+        border-radius: 10px;
+        background-color:rgba(255, 228, 196, 0.719);
+}
+.h9{
+    position: absolute;
+        top: 1330px;
+        left: 360px;
+        font-family: "Azbuka W01 Heavy Condensed";
+        font-size: 25px;
+    }
+.p9{
+    position: absolute;
+        top: 1410px;
+        left: 14px;
+        font-family: cursive;
+        border: 1px solid black;
+        border-color: black;
+        border-radius: 10px;
+        background-color: rgba(255, 228, 196, 0.719);
+    }
+.h10{
+    position: absolute;
+        top: 1485px;
+        left: 400px;
+        font-family: "Azbuka W01 Heavy Condensed";
+        font-size: 25px;
+}
+.p10{
+    position: absolute;
+        top: 1555px;
+        left: 14px;
+        font-family: cursive;
+        border: 1px solid black;
+        border-color: black;
+        border-radius: 10px;
+        background-color: rgba(255, 228, 196, 0.719);
+    }
+.h11{
+position: absolute;
+    top: 1630px;
+    left: 374px;
+    font-family: "Azbuka W01 Heavy Condensed";
+    font-size: 25px;
+
+}    
+.p11{
+position: absolute;
+    top: 1705px;
+    left: 14px;
+    font-family: cursive;
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+    background-color:rgba(255, 228, 196, 0.719) ;
+}

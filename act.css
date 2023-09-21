@@ -1,0 +1,54 @@
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+  
+  h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+  }
+        header {
+          background-image: linear-gradient(to right, rgb(185, 20, 150), rgb(243, 191, 232));
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          
+        }
+  
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgba(231, 227, 229, 0.459);
+    width: 260px;
+    height: 30px;
+    position: absolute;left: 37%;
+    
+  }
+  
+  iframe {
+    border: none;
+  }
+  h2{
+    text-align: center;
+    font-family: cursive;
+  }
+  .p1{
+text-align: center;
+font-family: cursive
+  }
+  h3{
+    position: absolute;top: 430px;left: 47%;
+    text-align: center;
+  }

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Summer Programs</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to right,rgb(185, 20, 150),rgb(243, 191, 232)) ;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+#hero {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+#countdownTimer {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer {
+   background-image: linear-gradient(to right,rgb(146, 15, 118),rgb(243, 191, 232)) ;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.p1{
+  font-family: cursive;
+}
+.p2{
+  font-family: cursive;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Summer Programs</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <h2>Welcome to Summer Programs</h2>
+    <p class="p1">Get ready for an amazing summer filled with fun and learning!</p>
+    <div id="countdownTimer"></div>
+    <p class="p2">Stay tuned for the upcoming summer programs.</p>
+  </section>
+  
+  <section id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac semper mauris. Integer eu porta magna. Donec eget tempor nunc. Duis at sem sit amet tortor rutrum porttitor. Vivamus fringilla tortor risus, id tincidunt turpis tristique eu. Sed hendrerit auctor metus, vitae volutpat nulla congue vitae.</p>
+  </section>
+  
+  <section id="programs">
+    <h2>Programs</h2>
+    <p>Check out our exciting summer programs:</p>
+    <ul>
+      <li>Grafic design</li>
+      <li>Sports</li>
+      <li>business</li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For more information, please contact us:</p>
+    <ul>
+      <li>Email: info@summerprograms.com</li>
+      <li>Phone: 123-456-7890</li>
+    </ul>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Summer Programs</p>
+  </footer>
+        <script>// Calculate time remaining until next summer
+            function getTimeRemaining() {
+              var today = new Date();
+              var nextSummer = new Date(today.getFullYear() + 1, 5, 1); // Assuming summer starts on June 1st
+              var timeRemaining = nextSummer - today;
+              
+              var milliseconds = timeRemaining % 1000;
+              var seconds = Math.floor((timeRemaining / 1000) % 60);
+              var minutes = Math.floor((timeRemaining / 1000 / 60) % 60);
+              var hours = Math.floor((timeRemaining / (1000 * 60 * 60)) % 24);
+              var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+              var weeks = Math.floor(days / 7);
+              var months = Math.floor(days / 30);
+              
+              return {
+                'total': timeRemaining,
+                'months': months,
+                'weeks': weeks,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+              };
+            }
+            
+            // Initialize and update the countdown timer
+            function initializeTimer() {
+              var countdownTimer = document.getElementById('countdownTimer');
+              
+              function updateTimer() {
+                var time = getTimeRemaining();
+                
+                if (time.total <= 0) {
+                  countdownTimer.innerHTML = 'Summer programs are here!';
+                  return;
+                }
+                
+                countdownTimer.innerHTML = 'Countdown to Next Summer: ' + time.months + ' months, ' +
+                  time.weeks + ' weeks, ' + time.days + ' days, ' +
+                  time.hours + ' hours, ' + time.minutes + ' minutes';
+              }
+              
+              setInterval(updateTimer, 1000); // Update the timer every second
+            }
+            
+            // Call the initializeTimer function when the page loads
+            window.onload = function() {
+              initializeTimer();
+            };
+            </script>
+
+</body>
+
+</html>

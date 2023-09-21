@@ -1,0 +1,84 @@
+body{
+    background-image: url("background2483.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border-color: rgb(207, 156, 195);
+    border-width: 15px;
+    border-color: rgb(144, 156, 167);
+    position: absolute;left: -250px;
+    
+    
+}
+input[type=text],input[type=password] {
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 17px;
+    margin-bottom: 24px;
+    border-color: aliceblue;
+    border-style: none;
+    
+    
+    
+}
+ input[type=checkbox]{
+    position: absolute;left: 60px;top: 200px;
+ }
+button{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-style: none;
+    font-size: 19px;
+    cursor:pointer;
+    width: 200px;
+    position: absolute;top: 230px;left: 95px;
+    color:black;
+    background-color:rgb(206, 234, 235)
+    
+}
+h1 {
+    color: black;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 1px;
+    left: 138px;
+    cursor: auto;
+}
+.login-box {
+    position: absolute;
+    left: 740px;
+    top: 300px;
+
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 90px;
+
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    height: 190px;
+}
+
+h3{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    position: absolute;left: 15px;top: 250px;
+
+}
+h2{
+    font-family: cursive;
+    font-size: 15px;
+position: absolute;top: 270px;
+color: rgb(29, 29, 28);
+    
+}
+h4{
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 15px;
+    position: absolute;top: 60px;left: 1150px;
+    text-align: center;
+    
+}
